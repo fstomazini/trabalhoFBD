@@ -185,5 +185,43 @@ insert into reu values ('00011100011122',3);
 insert into reu values ('00011100011133',4);
 insert into reu values ('00011100011144',5);
 
+/*--------------------------------------------------------Dados Novos------------------------------------------------------------------------------*/
 
+/* inserção de funcionarios*/
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Jacob","16060402763","43586481199",3126,"Advogado");
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Jermaine","16290302461","39211766299",1245,"Advogado");
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Taylor","16430419189","05605559299",2332,"Advogado");
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Xantha","16220405930","87711358299",2581,"Advogado");
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Kellie","16050315267","64354621699",3155,"Advogado");
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Remedios","16340519545","61805003799",2715,"Auxiliar");
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Savannah","16730924419","51536921599",4190,"Auxiliar");
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Kamal","16401013870","16921259399",4906,"Auxiliar");
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Aiko","16381008764","80664142899",1848,"Auxiliar");
+INSERT INTO colaborador (nome,cpf,rg,salario,funcao) VALUES ("Teegan","16720926622","61475292799",3763,"Auxiliar");
+
+/*Advogados*/
+INSERT INTO advogado (oab,especializacao) VALUES ("RS074402","Criminal ","16060402763");
+INSERT INTO advogado (oab,especializacao) VALUES ('RS108563',"Trabalhista ", "16290302461");
+INSERT INTO advogado (oab,especializacao) VALUES ('RS88990',"Trabalhista ", "16430419189");
+INSERT INTO advogado (oab,especializacao) VALUES ('RS052003',"Previdenciario","16220405930");
+INSERT INTO advogado (oab,especializacao) VALUES ('RS105553',"Civel ","16050315267");
+
+/*Auxiliares */
+INSERT INTO auxiliar (cpfaux) VALUES ("16340519545");
+INSERT INTO auxiliar (cpfaux) VALUES ("16730924419");
+INSERT INTO auxiliar (cpfaux) VALUES ("16401013870");
+INSERT INTO auxiliar (cpfaux) VALUES ("16381008764");
+INSERT INTO auxiliar (cpfaux) VALUES ("16720926622");
+/* Inserção das consultas */
+
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (1,"07/05/2020","14:00","Kuame","1693041975199","09 51 76 04 83","16220405930");
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (2,"20/04/2019","11:30","Whoopi","1625071306199","09 85 37 91 33","16430419189");
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (3,"13/10/2018","10:30","Kay","1691080598599","01 17 96 84 58","16050315267");
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (4,"26/06/2020","15:30","Tiger","1630081891499","09 94 64 29 86","16430419189");
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (5,"04/09/2018","17:30","Castor","1673061860999","03 83 01 19 70","16060402763");
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (6,"22/04/2020","15:00","Astra","1669022819299","09 87 42 23 33","16050315267");
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (7,"03/09/2018","09:30","Gavin","1651040220899","09 10 27 67 40","16290302461");
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (8,"09/10/2019","17:00","Noelani","1699122975299","01 33 21 70 45","16060402763");
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (9,"20/07/2018","10:00","Shay","1692061475199","09 87 81 52 80","16430419189");
+INSERT INTO advogado (codconsulta,dia,hora,nomecliente,cpfcliente,telefone,cpfadv) VALUES (10,"07/10/2018","11:30","Nelle","1668082500799","06 37 29 88 70","16430419189");
 
